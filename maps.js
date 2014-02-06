@@ -12,12 +12,12 @@ function getPinShadow() {
 	return pinShadow;
 }
 
-function addMarker( lat, lng ) {
+function addMarker( lat, lng, count ) {
 	var marker = new google.maps.Marker({
 			position: new google.maps.LatLng( lat, lng ),
 			animation: google.maps.Animation.DROP,
-			icon: pinImage,
-			shadow: pinShadow,
+			icon: getPinImage( count ),
+			shadow: getPinShadow(),
 			map: map
 		});
 	return marker;
@@ -37,17 +37,15 @@ $(document).ready(function() {
 		var cities = JSON.parse( data );
 		for (var i = 0; i < cities.length; i++) {
 			var city      = cities[i],
-			    count     = city.athletes.length,
-			    pinImage  = getPinImage( count ),
-			    pinShadow = getPinShadow();
+			    count     = city.athletes.length;
 
 			if ( city.lat && city.lng ) {
-				addMarker( city.lat, city.lng );
+				addMarker( city.lat, city.lng, count );
 			} else {
 				geocoder.geocode( { "address": city.name }, function(results, status) {
 					if (status == google.maps.GeocoderStatus.OK) {
 						var location = results[0].geometry.location,
-						    marker   = addMarker( location.d, location.e );
+						    marker   = addMarker( location.d, location.e, count );
 						console.log( city.name );
 						console.log( location.d );
 						console.log( location.e );
