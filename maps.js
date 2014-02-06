@@ -23,18 +23,6 @@ function addMarker( lat, lng, count, map ) {
 	return marker;
 }
 
-function geocode( cityName, count, map ) {
-	geocoder.geocode( { "address": cityName }, function(results, status) {
-		if (status == google.maps.GeocoderStatus.OK) {
-			var location = results[0].geometry.location,
-			    marker   = addMarker( location.d, location.e, count, map );
-			console.log( cityName );
-			console.log( location.d );
-			console.log( location.e );
-		}
-	});
-}
-
 $(document).ready(function() {
 	var center    = new google.maps.LatLng(56, -96),
 	    myOptions = {
@@ -58,5 +46,17 @@ $(document).ready(function() {
 			}
 		};
 	} )
+
+	function geocode( cityName, count, map ) {
+		geocoder.geocode( { "address": cityName }, function(results, status) {
+			if (status == google.maps.GeocoderStatus.OK) {
+				var location = results[0].geometry.location,
+				    marker   = addMarker( location.d, location.e, count, map );
+				console.log( cityName );
+				console.log( location.d );
+				console.log( location.e );
+			}
+		});
+	}
 
 });
