@@ -55,7 +55,9 @@
 			$.get( "olympics.js", function(data) {
 				console.log('data');
 				// console.log( data );
-				for (var i = 0; i < data.length; i++) {
+				var olympians = JSON.parse( data );
+				console.log( olympians );
+				for (var i = 0; i < olympians.length; i++) {
 					console.log( i );
 					console.log( data[i] );
 				};
