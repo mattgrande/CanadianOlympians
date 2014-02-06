@@ -15,6 +15,11 @@ function getPinShadow() {
 }
 
 function addMarker( lat, lng, city ) {
+	console.log('addMarker');
+	console.log(lat);
+	console.log(lng);
+	console.log(city);
+
 	var count = city.athletes.length,
 	    marker = new google.maps.Marker({
 			position: new google.maps.LatLng( lat, lng ),
@@ -23,8 +28,9 @@ function addMarker( lat, lng, city ) {
 			shadow: getPinShadow(),
 			map: map
 		});
+	console.log('addListener');
 	google.maps.event.addListener(marker, 'click', showInfoWindow( marker, city ));
-	return marker;
+	console.log('addListener done');
 }
 
 function geocode( geocoder, cityName, city ) {
@@ -32,8 +38,9 @@ function geocode( geocoder, cityName, city ) {
 
 	geocoder.geocode( { "address": cityName }, function(results, status) {
 		if (status == google.maps.GeocoderStatus.OK) {
-			var location = results[0].geometry.location,
-			    marker   = addMarker( location.d, location.e, city );
+			var location = results[0].geometry.location;
+			
+			addMarker( location.d, location.e, city );
 			console.log( cityName );
 			console.log( location.d );
 			console.log( location.e );
@@ -42,11 +49,13 @@ function geocode( geocoder, cityName, city ) {
 }
 
 function showInfoWindow( marker, city ) {
+	console.log('showInfoWindow');
 	var text = "<strong>" + city.name + "</strong><ul>";
 	for (var i = 0; i < city.athletes.length; i++) {
 		text += "<li>" + city.athletes[i] + "</li>";
 	};
 	text += "</ul>";
+	console.log( text );
 
 	return function() {
         if (iw) {

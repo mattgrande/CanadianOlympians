@@ -139,25 +139,25 @@
     { "name": "Courtenay, BC", "lat": 49.6841391, "lng": -124.9904493, "athletes": [
         { "name": "Spencer O’Brien", "sport": "Snowboarding" }
     ] },
-    { "name": "Cowansville, QC", "athletes": [
+    { "name": "Cowansville, QC", "lat": 45.2062926, "lng": -72.7471405, "athletes": [
         { "name": "Maxence Parrot", "sport": "Snowboarding" }
     ] },
-    { "name": "Cranbrook, BC", "athletes": [
+    { "name": "Cranbrook, BC", "lat": 49.5129678, "lng": -115.7694002, "athletes": [
         { "name": "Rob Fagan", "sport": "Snowboarding" }
     ] },
-    { "name": "Cumberland, BC", "athletes": [
+    { "name": "Cumberland, BC", "lat": 49.618806, "lng": -125.031269, "athletes": [
         { "name": "Vincent De Haître", "sport": "Speed Skating" }
     ] },
-    { "name": "Darwin, Northern Territory, Australia", "athletes": [
+    { "name": "Darwin, Northern Territory, Australia", "lat": -12.4628271, "lng": 130.84177720000002, "athletes": [
         { "name": "Christopher Spring", "sport": "Bobsleigh" }
     ] },
-    { "name": "Deux-Montagnes, QC", "athletes": [
+    { "name": "Deux-Montagnes, QC", "lat": 45.5418051, "lng": -73.8932108, "athletes": [
         { "name": "Mikaël Kingsbury", "sport": "Freestyle Skiing" }
     ] },
-    { "name": "Eckville, AB", "athletes": [
+    { "name": "Eckville, AB", "lat": 52.3622222, "lng": -114.3613889, "athletes": [
         { "name": "Mellisa Hollingsworth", "sport": "Skeleton" }
     ] },
-    { "name": "Edmonton, AB", "athletes": [
+    { "name": "Edmonton, AB", "lat": 53.544389, "lng": -113.4909267, "athletes": [
         { "name": "Bryan Barnett", "sport": "Bobsleigh" },
         { "name": "David Bissett", "sport": "Bobsleigh" },
         { "name": "Jay Bouwmeester", "sport": "Hockey" },
@@ -172,16 +172,16 @@
         { "name": "Shannon Szabados", "sport": "Hockey" },
         { "name": "Neville Wright", "sport": "Bobsleigh" }
     ] },
-    { "name": "Falcon Lake, MB", "athletes": [
+    { "name": "Falcon Lake, MB", "lat": 49.684889, "lng": -95.328757, "athletes": [
         { "name": "Megan Imrie", "sport": "Biathlon" }
     ] },
-    { "name": "Fort McMurray, AB", "athletes": [
+    { "name": "Fort McMurray, AB", "lat": 56.7263796, "lng": -111.3803407, "athletes": [
         { "name": "Graeme Killick", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Fort St John, BC", "athletes": [
+    { "name": "Fort St John, BC", "lat": 56.252423, "lng": -120.846409, "athletes": [
         { "name": "Denny Morrison", "sport": "Speed Skating" }
     ] },
-    { "name": "Greenfield Park, QC", "athletes": [
+    { "name": "Greenfield Park, QC", "lat": 45.485707, "lng": -73.462088, "athletes": [
         { "name": "Charline Labonté", "sport": "Hockey" }
     ] },
     { "name": "Guelph, ON", "athletes": [
