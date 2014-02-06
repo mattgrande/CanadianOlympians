@@ -2,7 +2,7 @@ $(document).ready(function() {
 	alert('ready');
 	var center = new google.maps.LatLng(56, -96);
 	var myOptions = {
-		'zoom': 8,
+		'zoom': 3,
 		'center': center,
 		'mapTypeId': google.maps.MapTypeId.ROADMAP
 	};
@@ -16,9 +16,42 @@ $(document).ready(function() {
 
 	$.get( "olympics.js", function(data) {
 		console.log('success');
-		var olympians = JSON.parse( data );
-		for (var i = 0; i < olympians.length; i++) {
-			console.log( olympians[i] );
+		var cities = JSON.parse( data );
+		for (var i = 0; i < cities.length; i++) {
+			console.log( cities[i] );
+
+			var count = cities.athletes.length,
+			    scale = 1 + (count * 0.1);
+			console.log( 'Scale: ' + scale );
+
+			// Generate the pin's image
+			var pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=" + count + "|FE7569",
+	            null, null, null,
+	            new google.maps.Size(21 * scale, 34 * scale)
+	        );
+
+	        // Generate the pin's shadow
+	        var pinShadow = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_shadow",
+	            null, null, new google.maps.Point(12, 35));
+
+	        var geocoder = new google.maps.Geocoder();
+		    if (geocoder) {
+				geocoder.geocode({"address": cities.name}, function(results, status) {
+					if (status == google.maps.GeocoderStatus.OK) {
+						console.log( 'LL:' );
+						console.log( results[0].geometry.location );
+						var marker = new google.maps.Marker({
+						    position: new google.maps.LatLng( results[0].geometry.location ),
+						    animation: google.maps.Animation.DROP,
+						    icon: pinImage,
+						    shadow: pinShadow
+						});
+					}
+				});
+			}
+			
+
+
 		};
 	} )
 
