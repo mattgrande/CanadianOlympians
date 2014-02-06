@@ -46,7 +46,8 @@ $(document).ready(function() {
 						    position: new google.maps.LatLng( results[0].geometry.location.d, results[0].geometry.location.e ),
 						    animation: google.maps.Animation.DROP,
 						    icon: pinImage,
-						    shadow: pinShadow
+						    shadow: pinShadow,
+						    map: map
 						});
 					}
 				});
