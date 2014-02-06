@@ -55,6 +55,10 @@
 			$.get( "olympics.js", function(data) {
 				console.log('data');
 				console.log( data );
+				$.each( data, function( k, v ) {
+					console.log(k);
+					console.log(v);
+				});
 			} )
 			  .done(function() {
 			    alert( "$.get succeeded" );
