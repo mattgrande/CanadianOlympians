@@ -23,26 +23,32 @@ $(document).ready(function() {
 		return pinShadow;
 	}
 
-	function addMarker( lat, lng, city ) {
+	function addMarker( lat, lng, city, i ) {
 		var count = city.athletes.length,
 		    marker = new google.maps.Marker({
 				position: new google.maps.LatLng( lat, lng ),
 				animation: google.maps.Animation.DROP,
 				icon: getPinImage( count ),
-				shadow: getPinShadow(),
-				map: map
+				shadow: getPinShadow()
 			});
 		google.maps.event.addListener(marker, 'click', showInfoWindow( marker, city ));
+		setTimeout(dropMarker( marker ), i * 100);
 	}
 
-	function geocode( cityName, city ) {
+	function dropMarker( marker ) {
+	    return function () {
+	        marker.setMap(map);
+	    };
+	}
+
+	function geocode( cityName, city, i ) {
 		var count = city.athletes.length;
 
 		geocoder.geocode( { "address": cityName }, function(results, status) {
 			if (status == google.maps.GeocoderStatus.OK) {
 				var location = results[0].geometry.location;
 				
-				addMarker( location.d, location.e, city );
+				addMarker( location.d, location.e, city, i );
 				console.log( cityName );
 				console.log( location.d );
 				console.log( location.e );
@@ -74,9 +80,9 @@ $(document).ready(function() {
 			var city      = cities[i];
 
 			if ( city.lat && city.lng ) {
-				addMarker( city.lat, city.lng, city );
+				addMarker( city.lat, city.lng, city, i );
 			} else {
-				geocode( city.name, city );
+				geocode( city.name, city, i );
 			}
 		};
 	});
