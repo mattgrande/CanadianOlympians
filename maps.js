@@ -23,6 +23,18 @@ function addMarker( lat, lng, count, map ) {
 	return marker;
 }
 
+function geocode( cityName, count, map ) {
+	geocoder.geocode( { "address": cityName }, function(results, status) {
+		if (status == google.maps.GeocoderStatus.OK) {
+			var location = results[0].geometry.location,
+			    marker   = addMarker( location.d, location.e, count, map );
+			console.log( cityName );
+			console.log( location.d );
+			console.log( location.e );
+		}
+	});
+}
+
 $(document).ready(function() {
 	var center    = new google.maps.LatLng(56, -96),
 	    myOptions = {
@@ -40,17 +52,9 @@ $(document).ready(function() {
 			    count     = city.athletes.length;
 
 			if ( city.lat && city.lng ) {
-				addMarker( city.lat, city.lng, count, map);
+				addMarker( city.lat, city.lng, count, map );
 			} else {
-				geocoder.geocode( { "address": city.name }, function(results, status) {
-					if (status == google.maps.GeocoderStatus.OK) {
-						var location = results[0].geometry.location,
-						    marker   = addMarker( location.d, location.e, count, map );
-						console.log( results );
-						console.log( location.d );
-						console.log( location.e );
-					}
-				});
+				geocode( city.name, count, map );
 			}
 		};
 	} )
