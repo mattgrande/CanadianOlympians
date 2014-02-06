@@ -1,35 +1,35 @@
 [
-    { "name": "Airdrie, AB", "athletes": [
+    { "name": "Airdrie, AB", "lat": 51.2917005, "lng": -114.0143635, "athletes": [
         { "name": "Brianne Tutt", "sport": "Speed Skating" }
     ] },
-    { "name": "Ajax, ON", "athletes": [
+    { "name": "Ajax, ON", "lat": 43.8508553, "lng": -79.0203732, "athletes": [
         { "name": "Tara Watchorn", "sport": "Hockey" }
     ] },
-    { "name": "Alert Bay, BC", "athletes": [
+    { "name": "Alert Bay, BC", "lat": 50.5844855, "lng": -126.9254093, "athletes": [
         { "name": "Spencer O’Brien", "sport": "Snowboarding" }
     ] },
-    { "name": "Almonte, ON", "athletes": [
+    { "name": "Almonte, ON", "lat": 45.2255655, "lng": -76.1940598, "athletes": [
         { "name": "Perianne Jones", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Anahim Lake, BC", "athletes": [
+    { "name": "Anahim Lake, BC", "lat": 52.466667, "lng": -125.316667, "athletes": [
         { "name": "Carey Price", "sport": "Hockey" }
     ] },
-    { "name": "Ancaster, ON", "athletes": [
+    { "name": "Ancaster, ON", "lat": 43.2177791, "lng": -79.9872835, "athletes": [
         { "name": "Brad Martin", "sport": "Snowboarding" }
     ] },
-    { "name": "Ancienne-Lorette, QC", "athletes": [
+    { "name": "Ancienne-Lorette, QC", "lat": 46.7989444, "lng": -71.3615556, "athletes": [
         { "name": "Patrice Bergeron", "sport": "Hockey" }
     ] },
-    { "name": "Aneroid, SK", "athletes": [
+    { "name": "Aneroid, SK", "lat": 49.7168863, "lng": -107.2969288, "athletes": [
         { "name": "Patrick Marleau", "sport": "Hockey" }
     ] },
-    { "name": "Aurora, ON", "athletes": [
+    { "name": "Aurora, ON", "lat": 44.00648, "lng": -79.450396, "athletes": [
         { "name": "Derek Livingston", "sport": "Snowboarding" }
     ] },
-    { "name": "Aylmer, QC", "athletes": [
+    { "name": "Aylmer, QC", "lat": 45.3945087, "lng": -75.8439603, "athletes": [
         { "name": "Caroline Calvé", "sport": "Snowboarding" }
     ] },
-    { "name": "Balmertown, ON", "athletes": [
+    { "name": "Balmertown, ON", "lat": 51.056653, "lng": -93.743097, "athletes": [
         { "name": "Eric Radford", "sport": "Figure Skating" }
     ] },
     { "name": "Barrie, ON", "athletes": [
