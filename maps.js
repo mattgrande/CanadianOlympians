@@ -76,8 +76,8 @@ $(document).ready(function() {
 			'center': center,
 			'mapTypeId': google.maps.MapTypeId.ROADMAP
 		},
-	    map       = new google.maps.Map(document.getElementById('map'), myOptions),
 	    geocoder  = new google.maps.Geocoder();
+	map           = new google.maps.Map(document.getElementById('map'), myOptions),
 	
 	$.get( "olympics.js", function(data) {
 		var cities = JSON.parse( data );
