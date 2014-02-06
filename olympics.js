@@ -101,42 +101,42 @@
         { "name": "Brianne Tutt", "sport": "Speed Skating" },
         { "name": "Tristan Walker", "sport": "Luge" }
     ] },
-    { "name": "Canmore, AB", "athletes": [
+    { "name": "Canmore, AB", "lat": 51.086985, "lng": -115.346814, "athletes": [
         { "name": "Jesse Cockney", "sport": "Cross Country Skiing" },
         { "name": "Rosanna Crawford", "sport": "Biathlon" },
         { "name": "Chandra Crawford", "sport": "Cross Country Skiing" },
         { "name": "Megan Imrie", "sport": "Biathlon" },
         { "name": "Devon Kershaw", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Cape Town, South Africa", "athletes": [
+    { "name": "Cape Town, South Africa", "lat": -33.9248685, "lng": 18.4240553, "athletes": [
         { "name": "Rudi Swiegers", "sport": "Figure Skating" }
     ] },
-    { "name": "Carrot River, SK", "athletes": [
+    { "name": "Carrot River, SK", "lat": 53.2802086, "lng": -103.587526, "athletes": [
         { "name": "Chelsea Valois", "sport": "Bobsleigh" }
     ] },
-    { "name": "Chetwynd, BC", "athletes": [
+    { "name": "Chetwynd, BC", "lat": 55.697588, "lng": -121.629633, "athletes": [
         { "name": "Denny Morrison", "sport": "Speed Skating" }
     ] },
-    { "name": "Chicoutimi, QC", "athletes": [
+    { "name": "Chicoutimi, QC", "lat": 48.422159, "lng": -71.061886, "athletes": [
         { "name": "Marie-Ève Drolet", "sport": "Speed Skating" },
         { "name": "Valérie Maltais", "sport": "Speed Skating" }
     ] },
-    { "name": "Chilliwack, BC", "athletes": [
+    { "name": "Chilliwack, BC", "lat": 49.1579401, "lng": -121.9514666, "athletes": [
         { "name": "Kevin Hill", "sport": "Snowboarding" }
     ] },
-    { "name": "Cochrane, AB", "athletes": [
+    { "name": "Cochrane, AB", "lat": 51.1909883, "lng": -114.4678603, "athletes": [
         { "name": "Tristan Walker", "sport": "Luge" }
     ] },
-    { "name": "Cole Harbour, NS", "athletes": [
+    { "name": "Cole Harbour, NS", "lat": 44.6458149, "lng": -63.4534447, "athletes": [
         { "name": "Sidney Crosby", "sport": "Hockey" }
     ] },
-    { "name": "Colorado Springs, Colorado, United States", "athletes": [
+    { "name": "Colorado Springs, Colorado, United States", "lat": 38.8338816, "lng": -104.8213634, "athletes": [
         { "name": "Christopher Del Bosco", "sport": "Freestyle Skiing" }
     ] },
-    { "name": "Coquitlam, BC", "athletes": [
+    { "name": "Coquitlam, BC", "lat": 49.2837626, "lng": -122.7932065, "athletes": [
         { "name": "Kevin Reynolds", "sport": "Figure Skating" }
     ] },
-    { "name": "Courtenay, BC", "athletes": [
+    { "name": "Courtenay, BC", "lat": 49.6841391, "lng": -124.9904493, "athletes": [
         { "name": "Spencer O’Brien", "sport": "Snowboarding" }
     ] },
     { "name": "Cowansville, QC", "athletes": [

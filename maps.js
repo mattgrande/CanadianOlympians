@@ -1,3 +1,5 @@
+var map, iw;
+
 function getPinImage( count ) {
 	var scale = 1 + (count * 0.05),
 	    pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=" + count + "|FE7569",
@@ -12,15 +14,49 @@ function getPinShadow() {
 	return pinShadow;
 }
 
-function addMarker( lat, lng, count, map ) {
-	var marker = new google.maps.Marker({
+function addMarker( lat, lng, city ) {
+	var count = city.athletes.length,
+	    marker = new google.maps.Marker({
 			position: new google.maps.LatLng( lat, lng ),
 			animation: google.maps.Animation.DROP,
 			icon: getPinImage( count ),
 			shadow: getPinShadow(),
 			map: map
 		});
+	google.maps.event.addListener(marker, 'click', showInfoWindow( marker, city ));
 	return marker;
+}
+
+function geocode( cityName, city ) {
+	var count = city.athletes.length;
+
+	geocoder.geocode( { "address": cityName }, function(results, status) {
+		if (status == google.maps.GeocoderStatus.OK) {
+			var location = results[0].geometry.location,
+			    marker   = addMarker( location.d, location.e, city );
+			console.log( cityName );
+			console.log( location.d );
+			console.log( location.e );
+		}
+	});
+}
+
+function showInfoWindow( marker, city ) {
+	var text = "<strong>" + city.name + "</strong><ul>";
+	for (var i = 0; i < city.athletes.length; i++) {
+		text += "<li>" + city.athletes[i] + "</li>";
+	};
+	text += "</ul>";
+
+	return function() {
+        if (iw) {
+            iw.close();
+            iw = null;
+        }
+
+        iw = new google.maps.InfoWindow({ content: text });
+        iw.open(map, marker);
+    };
 }
 
 $(document).ready(function() {
@@ -36,27 +72,13 @@ $(document).ready(function() {
 	$.get( "olympics.js", function(data) {
 		var cities = JSON.parse( data );
 		for (var i = 0; i < cities.length; i++) {
-			var city      = cities[i],
-			    count     = city.athletes.length;
+			var city      = cities[i];
 
 			if ( city.lat && city.lng ) {
-				addMarker( city.lat, city.lng, count, map );
+				addMarker( city.lat, city.lng, city );
 			} else {
-				geocode( city.name, count, map );
+				geocode( city.name, city );
 			}
 		};
-	} )
-
-	function geocode( cityName, count, map ) {
-		geocoder.geocode( { "address": cityName }, function(results, status) {
-			if (status == google.maps.GeocoderStatus.OK) {
-				var location = results[0].geometry.location,
-				    marker   = addMarker( location.d, location.e, count, map );
-				console.log( cityName );
-				console.log( location.d );
-				console.log( location.e );
-			}
-		});
-	}
-
+	});
 });
