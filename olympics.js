@@ -647,4 +647,4 @@
     { 'name': 'Zenon Park, SK', 'athletes': [
         { 'name': 'Chelsea Valois', 'sport': 'Bobsleigh' }
     ] }
-];
+]
