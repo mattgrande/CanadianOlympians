@@ -1,4 +1,4 @@
-var cities = [
+[
     { name: 'Airdrie, AB', athletes: [
         { name: 'Brianne Tutt', sport: 'Speed Skating' }
     ] },
