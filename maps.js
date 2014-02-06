@@ -18,9 +18,10 @@ $(document).ready(function() {
 		console.log('success');
 		var cities = JSON.parse( data );
 		for (var i = 0; i < cities.length; i++) {
-			console.log( cities[i] );
+			var city = cities[i]
+			console.log( city );
 
-			var count = cities.athletes.length,
+			var count = city.athletes.length,
 			    scale = 1 + (count * 0.1);
 			console.log( 'Scale: ' + scale );
 
@@ -36,7 +37,7 @@ $(document).ready(function() {
 
 	        var geocoder = new google.maps.Geocoder();
 		    if (geocoder) {
-				geocoder.geocode({"address": cities.name}, function(results, status) {
+				geocoder.geocode({"address": city.name}, function(results, status) {
 					if (status == google.maps.GeocoderStatus.OK) {
 						console.log( 'LL:' );
 						console.log( results[0].geometry.location );
