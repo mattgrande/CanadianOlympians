@@ -278,6 +278,9 @@
     { "name": "Langley, BC", "lat": 49.105950, "lng": -122.637189, "athletes": [
         { "name": "Jessica Hewitt", "sport": "Speed Skating" }
     ] },
+    { "name": "Laval, QC", "lat": 45.605943, "lng": -73.709509, "athletes": [
+        { "name": "Martin St. Louis", "sport": "Hockey" }
+    ] },
     { "name": "Lethbridge, AB", "lat": 49.693617, "lng": -112.825319, "athletes": [
         { "name": "David Bissett", "sport": "Bobsleigh" },
         { "name": "Eric Neilson", "sport": "Bobsleigh" }
@@ -505,7 +508,6 @@
         { "name": "Caleb Flaxey", "sport": "Curling" },
         { "name": "Derek Livingston", "sport": "Snowboarding" },
         { "name": "Natalie Spooner", "sport": "Hockey" },
-        { "name": "Steven Stamkos", "sport": "Hockey" },
         { "name": "Katie Tsuyuki", "sport": "Snowboarding" },
         { "name": "Jennifer Wakefield", "sport": "Hockey" }
     ] },
@@ -579,8 +581,7 @@
         { "name": "Jayna Hefford", "sport": "Hockey" }
     ] },
     { "name": "Unionville, ON", "lat": 43.862582, "lng": -79.31064, "athletes": [
-        { "name": "Gillian Apps", "sport": "Hockey" },
-        { "name": "Steven Stamkos", "sport": "Hockey" }
+        { "name": "Gillian Apps", "sport": "Hockey" }
     ] },
     { "name": "Valleyfield, QC", "lat": 45.256838, "lng": -74.133752, "athletes": [
         { "name": "Mélodie Daoust", "sport": "Hockey" }
