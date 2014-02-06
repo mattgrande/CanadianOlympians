@@ -32,43 +32,43 @@
     { "name": "Balmertown, ON", "lat": 51.056653, "lng": -93.743097, "athletes": [
         { "name": "Eric Radford", "sport": "Figure Skating" }
     ] },
-    { "name": "Barrie, ON", "athletes": [
+    { "name": "Barrie, ON", "lat": 44.3893556, "lng": -79.6903316, "athletes": [
         { "name": "Mitchell Islam", "sport": "Figure Skating" }
     ] },
-    { "name": "Banff, BC", "athletes": [
+    { "name": "Banff, BC", "lat": 51.1783629, "lng": -115.5707694, "athletes": [
         { "name": "Daria Gaiazova", "sport": "Cross Country Skiing" },
         { "name": "Heidi Widmer", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Beaconsfield, QC", "athletes": [
+    { "name": "Beaconsfield, QC", "lat": 45.4309308, "lng": -73.8682835, "athletes": [
         { "name": "Lauriane Rougeau", "sport": "Hockey" }
     ] },
-    { "name": "Boisbriand, QC", "athletes": [
+    { "name": "Boisbriand, QC", "lat": 45.6126338, "lng": -73.8383733, "athletes": [
         { "name": "Charline Labonté", "sport": "Hockey" }
     ] },
-    { "name": "Boucherville, QC", "athletes": [
+    { "name": "Boucherville, QC", "lat": 45.5913698, "lng": -73.4364097, "athletes": [
         { "name": "Charle Cournoyer", "sport": "Speed Skating" }
     ] },
-    { "name": "Brampton, ON", "athletes": [
+    { "name": "Brampton, ON", "lat": 43.6833333, "lng": -79.7666667, "athletes": [
         { "name": "Erin Mielzynski", "sport": "Alpine Skiing" },
         { "name": "Rick Nash", "sport": "Hockey" }
     ] },
-    { "name": "Bromont, QC", "athletes": [
+    { "name": "Bromont, QC", "lat": 45.3166667, "lng": -72.65, "athletes": [
         { "name": "Maxence Parrot", "sport": "Snowboarding" }
     ] },
-    { "name": "Burketon, ON", "athletes": [
+    { "name": "Burketon, ON", "lat": 44.0543858, "lng": -78.7947478, "athletes": [
         { "name": "Matthew Morison", "sport": "Snowboarding" }
     ] },
-    { "name": "Burlington, ON", "athletes": [
+    { "name": "Burlington, ON", "lat": 43.3255196, "lng": -79.7990319, "athletes": [
         { "name": "Marianne Leeson", "sport": "Snowboarding" },
         { "name": "Jesse Lumsden", "sport": "Bobsleigh" },
         { "name": "Tim Randall", "sport": "Bobsleigh" }
     ] },
-    { "name": "Caledon, ON", "athletes": [
+    { "name": "Caledon, ON", "lat": 43.8666667, "lng": -80, "athletes": [
         { "name": "Caleb Flaxey", "sport": "Curling" },
         { "name": "Jake Holden", "sport": "Snowboarding" },
         { "name": "Brittany Webster", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Calgary, AB", "athletes": [
+    { "name": "Calgary, AB", "lat": 51.0453246, "lng": -114.0581013, "athletes": [
         { "name": "Ivan Babikov", "sport": "Cross Country Skiing" },
         { "name": "Noah Bowman", "sport": "Freestyle Skiing" },
         { "name": "Mackenzie Boyd-Clowes", "sport": "Ski Jumping" },

@@ -1,5 +1,5 @@
 function getPinImage( count ) {
-	var scale = 1 + (count * 0.1),
+	var scale = 1 + (count * 0.05),
 	    pinImage = new google.maps.MarkerImage("http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=" + count + "|FE7569",
 		null, null, null, new google.maps.Size(21 * scale, 34 * scale)
 	);
