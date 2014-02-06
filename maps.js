@@ -27,7 +27,7 @@ function addMarker( lat, lng, city ) {
 	return marker;
 }
 
-function geocode( cityName, city ) {
+function geocode( geocoder, cityName, city ) {
 	var count = city.athletes.length;
 
 	geocoder.geocode( { "address": cityName }, function(results, status) {
@@ -77,7 +77,7 @@ $(document).ready(function() {
 			if ( city.lat && city.lng ) {
 				addMarker( city.lat, city.lng, city );
 			} else {
-				geocode( city.name, city );
+				geocode( geocoder, city.name, city );
 			}
 		};
 	});
