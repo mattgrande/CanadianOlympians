@@ -32,7 +32,7 @@ $(document).ready(function() {
 				shadow: getPinShadow()
 			});
 		google.maps.event.addListener(marker, 'click', showInfoWindow( marker, city ));
-		setTimeout(dropMarker( marker ), i * 100);
+		setTimeout(dropMarker( marker ), i * 20);
 	}
 
 	function dropMarker( marker ) {
