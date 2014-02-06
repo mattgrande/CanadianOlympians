@@ -1,5 +1,12 @@
-var map, iw;
-map = new google.maps.Map(document.getElementById('map'), myOptions)
+var center    = new google.maps.LatLng(56, -96),
+	myOptions = {
+		'zoom': 3,
+		'center': center,
+		'mapTypeId': google.maps.MapTypeId.ROADMAP
+	},
+	map       = new google.maps.Map(document.getElementById('map'), myOptions),
+	geocoder  = new google.maps.Geocoder(),
+	iw;
 
 function getPinImage( count ) {
 	var scale = 1 + (count * 0.05),
@@ -27,7 +34,7 @@ function addMarker( lat, lng, city ) {
 	google.maps.event.addListener(marker, 'click', showInfoWindow( marker, city ));
 }
 
-function geocode( geocoder, cityName, city ) {
+function geocode( cityName, city ) {
 	var count = city.athletes.length;
 
 	geocoder.geocode( { "address": cityName }, function(results, status) {
@@ -61,13 +68,7 @@ function showInfoWindow( marker, city ) {
 }
 
 $(document).ready(function() {
-	var center    = new google.maps.LatLng(56, -96),
-	    myOptions = {
-			'zoom': 3,
-			'center': center,
-			'mapTypeId': google.maps.MapTypeId.ROADMAP
-		},
-	    geocoder  = new google.maps.Geocoder();
+	
 	
 	$.get( "olympics.js", function(data) {
 		var cities = JSON.parse( data );
@@ -77,7 +78,7 @@ $(document).ready(function() {
 			if ( city.lat && city.lng ) {
 				addMarker( city.lat, city.lng, city );
 			} else {
-				geocode( geocoder, city.name, city );
+				geocode( city.name, city );
 			}
 		};
 	});
