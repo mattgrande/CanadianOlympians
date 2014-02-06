@@ -40,9 +40,10 @@ $(document).ready(function() {
 				geocoder.geocode({"address": city.name}, function(results, status) {
 					if (status == google.maps.GeocoderStatus.OK) {
 						console.log( 'LL:' );
-						console.log( results[0].geometry.location );
+						console.log( results[0].geometry.location.d );
+						console.log( results[0].geometry.location.e );
 						var marker = new google.maps.Marker({
-						    position: new google.maps.LatLng( results[0].geometry.location ),
+						    position: new google.maps.LatLng( results[0].geometry.location.d, results[0].geometry.location.e ),
 						    animation: google.maps.Animation.DROP,
 						    icon: pinImage,
 						    shadow: pinShadow
