@@ -1,4 +1,5 @@
 var map, iw;
+map = new google.maps.Map(document.getElementById('map'), myOptions)
 
 function getPinImage( count ) {
 	var scale = 1 + (count * 0.05),
@@ -15,12 +16,6 @@ function getPinShadow() {
 }
 
 function addMarker( lat, lng, city ) {
-	console.log('addMarker');
-	console.log(lat);
-	console.log(lng);
-	console.log(city);
-	console.log(map);
-
 	var count = city.athletes.length,
 	    marker = new google.maps.Marker({
 			position: new google.maps.LatLng( lat, lng ),
@@ -29,9 +24,7 @@ function addMarker( lat, lng, city ) {
 			shadow: getPinShadow(),
 			map: map
 		});
-	console.log('addListener');
 	google.maps.event.addListener(marker, 'click', showInfoWindow( marker, city ));
-	console.log('addListener done');
 }
 
 function geocode( geocoder, cityName, city ) {
@@ -50,13 +43,11 @@ function geocode( geocoder, cityName, city ) {
 }
 
 function showInfoWindow( marker, city ) {
-	console.log('showInfoWindow');
 	var text = "<strong>" + city.name + "</strong><ul>";
 	for (var i = 0; i < city.athletes.length; i++) {
 		text += "<li>" + city.athletes[i].name + "</li>";
 	};
 	text += "</ul>";
-	console.log( text );
 
 	return function() {
         if (iw) {
@@ -77,7 +68,6 @@ $(document).ready(function() {
 			'mapTypeId': google.maps.MapTypeId.ROADMAP
 		},
 	    geocoder  = new google.maps.Geocoder();
-	map           = new google.maps.Map(document.getElementById('map'), myOptions),
 	
 	$.get( "olympics.js", function(data) {
 		var cities = JSON.parse( data );
