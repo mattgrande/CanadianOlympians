@@ -460,48 +460,48 @@
     { "name": "Ruthven, ON", "lat": 42.050087, "lng": -82.666519, "athletes": [
         { "name": "Meghan Agosta-Marciano", "sport": "Hockey" }
     ] },
-    { "name": "St. Albert, AB", "athletes": [
+    { "name": "St. Albert, AB", "lat": 53.6304753, "lng": -113.625642, "athletes": [
         { "name": "Amanda Ammar", "sport": "Cross Country Skiing" },
         { "name": "Meaghan Mikkelson", "sport": "Hockey" }
     ] },
-    { "name": "St. Catharines, ON", "athletes": [
+    { "name": "St. Catharines, ON", "lat": 43.1593745, "lng": -79.2468626, "athletes": [
         { "name": "Kirsten Moore-Towers", "sport": "Figure Skating" }
     ] },
-    { "name": "Ste. Anne, MB", "athletes": [
+    { "name": "Ste. Anne, MB", "lat": 49.669688, "lng": -96.647311, "athletes": [
         { "name": "Jocelyne Larocque", "sport": "Hockey" }
     ] },
-    { "name": "Saint-Félicien, QC", "athletes": [
+    { "name": "Saint-Félicien, QC", "lat": 48.6517071, "lng": -72.4489776, "athletes": [
         { "name": "Marianne St-Gelais", "sport": "Speed Skating" }
     ] },
-    { "name": "Saint-Sauveur, QC", "athletes": [
+    { "name": "Saint-Sauveur, QC", "lat": 45.8940717, "lng": -74.157934, "athletes": [
         { "name": "Marie-Pier Prefontaine", "sport": "Alpine Skiing" }
     ] },
-    { "name": "Saint-Ferréol-les-Neiges, QC", "athletes": [
+    { "name": "Saint-Ferréol-les-Neiges, QC", "lat": 47.116888, "lng": -70.8598279, "athletes": [
         { "name": "Alex Harvey", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Sainte-Agathe-des-Monts, QC", "athletes": [
+    { "name": "Sainte-Agathe-des-Monts, QC", "lat": 46.0485628, "lng": -74.281603, "athletes": [
         { "name": "Mikaël Kingsbury", "sport": "Freestyle Skiing" },
         { "name": "Ariane Lavigne", "sport": "Snowboarding" },
         { "name": "Brittany Phelan", "sport": "Alpine Skiing" },
         { "name": "Marie-Pier Prefontaine", "sport": "Alpine Skiing" }
     ] },
-    { "name": "Sainte-Julie, QC", "athletes": [
+    { "name": "Sainte-Julie, QC", "lat": 45.5924997, "lng": -73.3426988, "athletes": [
         { "name": "Charles Hamelin", "sport": "Speed Skating" },
         { "name": "François Hamelin", "sport": "Speed Skating" }
     ] },
-    { "name": "Salmon Arm, BC", "athletes": [
+    { "name": "Salmon Arm, BC", "lat": 50.7001034, "lng": -119.2838443, "athletes": [
         { "name": "Shea Weber", "sport": "Hockey" }
     ] },
-    { "name": "Saskatoon, SK", "athletes": [
+    { "name": "Saskatoon, SK", "lat": 52.1343699, "lng": -106.647656, "athletes": [
         { "name": "Lyndon Rush", "sport": "Bobsleigh" }
     ] },
-    { "name": "Sault Ste. Marie, ON", "athletes": [
+    { "name": "Sault Ste. Marie, ON", "lat": 46.521858, "lng": -84.3460896, "athletes": [
         { "name": "Ryan Fry", "sport": "Curling" },
         { "name": "E.J. Harnden", "sport": "Curling" },
         { "name": "Ryan Harnden", "sport": "Curling" },
         { "name": "Brad Jacobs", "sport": "Curling" }
     ] },
-    { "name": "Scarborough, ON", "athletes": [
+    { "name": "Scarborough, ON", "lat": 43.769175, "lng": -79.246262, "athletes": [
         { "name": "Caleb Flaxey", "sport": "Curling" },
         { "name": "Derek Livingston", "sport": "Snowboarding" },
         { "name": "Natalie Spooner", "sport": "Hockey" },
@@ -509,59 +509,59 @@
         { "name": "Katie Tsuyuki", "sport": "Snowboarding" },
         { "name": "Jennifer Wakefield", "sport": "Hockey" }
     ] },
-    { "name": "Sicamous, BC", "athletes": [
+    { "name": "Sicamous, BC", "lat": 50.83386, "lng": -118.975153, "athletes": [
         { "name": "Shea Weber", "sport": "Hockey" }
     ] },
-    { "name": "Sillery, QC", "athletes": [
+    { "name": "Sillery, QC", "lat": 46.784663, "lng": -71.254921, "athletes": [
         { "name": "Patrice Bergeron", "sport": "Hockey" }
     ] },
-    { "name": "Smithers, BC", "athletes": [
+    { "name": "Smithers, BC", "lat": 54.78188, "lng": -127.165546, "athletes": [
         { "name": "Dan Hamhuis", "sport": "Hockey" }
     ] },
-    { "name": "Shannon, QC", "athletes": [
+    { "name": "Shannon, QC", "lat": 46.886184, "lng": -71.51679, "athletes": [
         { "name": "Jean-Philippe Le Guellec", "sport": "Biathlon" }
     ] },
-    { "name": "Shaunavon, SK", "athletes": [
+    { "name": "Shaunavon, SK", "lat": 49.643235, "lng": -108.420124, "athletes": [
         { "name": "Hayley Wickenheiser", "sport": "Hockey" }
     ] },
-    { "name": "Sherwood Park, AB", "athletes": [
+    { "name": "Sherwood Park, AB", "lat": 53.524544, "lng": -113.296938, "athletes": [
         { "name": "Kaetlyn Osmond", "sport": "Figure Skating" },
         { "name": "Mike Riddle", "sport": "Freestyle Skiing" }
     ] },
-    { "name": "Squamish, BC", "athletes": [
+    { "name": "Squamish, BC", "lat": 49.749674, "lng": -123.135975, "athletes": [
         { "name": "Megan Heinicke", "sport": "Biathlon" }
     ] },
-    { "name": "Sudbury, ON", "athletes": [
+    { "name": "Sudbury, ON", "lat": 46.492838, "lng": -80.989151, "athletes": [
         { "name": "Meagan Duhamel", "sport": "Figure Skating" },
         { "name": "Rebecca Johnston", "sport": "Hockey" },
         { "name": "Devon Kershaw", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Summerland, BC", "athletes": [
+    { "name": "Summerland, BC", "lat": 49.593938, "lng": -119.668029, "athletes": [
         { "name": "Justin Kripps", "sport": "Bobsleigh" }
     ] },
-    { "name": "Summerside, PE", "athletes": [
+    { "name": "Summerside, PE", "lat": 46.392648, "lng": -63.791599, "athletes": [
         { "name": "Heather Moyse", "sport": "Bobsleigh" }
     ] },
-    { "name": "Šumperk, Czechoslovakia", "athletes": [
+    { "name": "Šumperk, Czechoslovakia", "lat": 49.9771284, "lng": 16.9595131, "athletes": [
         { "name": "Jan Hudec", "sport": "Alpine Skiing" }
     ] },
-    { "name": "Sun Peaks, BC", "athletes": [
+    { "name": "Sun Peaks, BC", "lat": 50.884954, "lng": -119.880731, "athletes": [
         { "name": "Elli Terwiel", "sport": "Alpine Skiing" }
     ] },
-    { "name": "Swift Current, SK", "athletes": [
+    { "name": "Swift Current, SK", "lat": 50.287421, "lng": -107.797215, "athletes": [
         { "name": "Patrick Marleau", "sport": "Hockey" }
     ] },
-    { "name": "Syktyvkar, Komi, Russia", "athletes": [
+    { "name": "Syktyvkar, Komi, Russia", "lat": 61.7396115, "lng": 50.8190446, "athletes": [
         { "name": "Ivan Babikov", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Terrebonne, QC", "athletes": [
+    { "name": "Terrebonne, QC", "lat": 45.7475225, "lng": -73.666824, "athletes": [
         { "name": "Marc-Antoine Gagnon", "sport": "Freestyle Skiing" }
     ] },
-    { "name": "Thunder Bay, ON", "athletes": [
+    { "name": "Thunder Bay, ON", "lat": 48.415852, "lng": -89.260528, "athletes": [
         { "name": "Haley Irwin", "sport": "Hockey" },
         { "name": "Patrick Sharp", "sport": "Hockey" }
     ] },
-    { "name": "Toronto, ON", "athletes": [
+    { "name": "Toronto, ON", "lat": 43.670906, "lng": -79.393331, "athletes": [
         { "name": "Phil Brown", "sport": "Alpine Skiing" },
         { "name": "Mackenzie Boyd-Clowes", "sport": "Ski Jumping" },
         { "name": "Patrick Chan", "sport": "Figure Skating" },
@@ -575,43 +575,43 @@
         { "name": "Lennard 'Len' Väljas", "sport": "Cross Country Skiing" },
         { "name": "Brittany Webster", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Trenton, ON", "athletes": [
+    { "name": "Trenton, ON", "lat": 44.100222, "lng": -77.577295, "athletes": [
         { "name": "Jayna Hefford", "sport": "Hockey" }
     ] },
-    { "name": "Unionville, ON", "athletes": [
+    { "name": "Unionville, ON", "lat": 43.862582, "lng": -79.31064, "athletes": [
         { "name": "Gillian Apps", "sport": "Hockey" },
         { "name": "Steven Stamkos", "sport": "Hockey" }
     ] },
-    { "name": "Valleyfield, QC", "athletes": [
+    { "name": "Valleyfield, QC", "lat": 45.256838, "lng": -74.133752, "athletes": [
         { "name": "Mélodie Daoust", "sport": "Hockey" }
     ] },
-    { "name": "Vancouver, BC", "athletes": [
+    { "name": "Vancouver, BC", "lat": 49.253976, "lng": -123.108091, "athletes": [
         { "name": "Carey Price", "sport": "Hockey" },
         { "name": "Morgan Pridy", "sport": "Alpine Skiing" },
         { "name": "Georgia Simmerling", "sport": "Alpine Skiing, Freestyle Skiing" },
         { "name": "Yuki Tsubota", "sport": "Freestyle Skiing" }
     ] },
-    { "name": "Vernon, BC", "athletes": [
+    { "name": "Vernon, BC", "lat": 50.26791, "lng": -119.272185, "athletes": [
         { "name": "Justin Dorey", "sport": "Freestyle Skiing" }
     ] },
-    { "name": "Victoria, BC", "athletes": [
+    { "name": "Victoria, BC", "lat": 48.426808, "lng": -123.362217, "athletes": [
         { "name": "Jamie Benn", "sport": "Hockey" },
         { "name": "Megan Heinicke", "sport": "Biathlon" },
         { "name": "Matt Margetts", "sport": "Freestyle Skiing" },
         { "name": "Kimberley McRae", "sport": "Luge" }
     ] },
-    { "name": "Waterloo, ON", "athletes": [
+    { "name": "Waterloo, ON", "lat": 43.465192, "lng": -80.521889, "athletes": [
         { "name": "Andrew Poje", "sport": "Figure Skating" },
         { "name": "Kaitlyn Weaver", "sport": "Figure Skating" }
     ] },
-    { "name": "West Vancouver, BC", "athletes": [
+    { "name": "West Vancouver, BC", "lat": 49.328982, "lng": -123.156824, "athletes": [
         { "name": "Maëlle Ricker", "sport": "Snowboarding" },
         { "name": "Georgia Simmerling", "sport": "Alpine Skiing, Freestyle Skiing" }
     ] },
-    { "name": "Wheat Ridge, Colorado, United States", "athletes": [
+    { "name": "Wheat Ridge, Colorado, United States", "lat": 39.774696, "lng": -105.1049885, "athletes": [
         { "name": "John Fennell", "sport": "Luge" }
     ] },
-    { "name": "Whistler, BC", "athletes": [
+    { "name": "Whistler, BC", "lat": 50.115570, "lng": -122.959242, "athletes": [
         { "name": "Michael Janyk", "sport": "Alpine Skiing" },
         { "name": "Crispin Lipscomb", "sport": "Snowboarding" },
         { "name": "Mercedes Nicoll", "sport": "Snowboarding" },
@@ -619,16 +619,16 @@
         { "name": "Marielle Thompson", "sport": "Freestyle Skiing" },
         { "name": "Yuki Tsubota", "sport": "Freestyle Skiing" }
     ] },
-    { "name": "White City, SK", "athletes": [
+    { "name": "White City, SK", "lat": 50.443458, "lng": -104.356556, "athletes": [
         { "name": "Marsha Hudey", "sport": "Speed Skating" }
     ] },
-    { "name": "Whitehorse, YK", "athletes": [
+    { "name": "Whitehorse, YK", "lat": 60.719346, "lng": -135.052614, "athletes": [
         { "name": "Emily Nishikawa", "sport": "Cross Country Skiing" }
     ] },
-    { "name": "Windsor, ON", "athletes": [
+    { "name": "Windsor, ON", "lat": 42.291192, "lng": -82.997466, "athletes": [
         { "name": "Meghan Agosta-Marciano", "sport": "Hockey" }
     ] },
-    { "name": "Winnipeg, MB", "athletes": [
+    { "name": "Winnipeg, MB", "lat": 49.895298, "lng": -97.138882, "athletes": [
         { "name": "Ryan Fry", "sport": "Curling" },
         { "name": "Jennifer Jones", "sport": "Curling" },
         { "name": "Duncan Keith", "sport": "Hockey" },
@@ -640,11 +640,11 @@
         { "name": "Patrick Sharp", "sport": "Hockey" },
         { "name": "Jonathan Toews", "sport": "Hockey" }
     ] },
-    { "name": "Yellowknife, NT", "athletes": [
+    { "name": "Yellowknife, NT", "lat": 62.455137, "lng": -114.368277, "athletes": [
         { "name": "Jesse Cockney", "sport": "Cross Country Skiing" },
         { "name": "Michael Gilday", "sport": "Speed Skating" }
     ] },
-    { "name": "Zenon Park, SK", "athletes": [
+    { "name": "Zenon Park, SK", "lat": 53.064532, "lng": -103.757286, "athletes": [
         { "name": "Chelsea Valois", "sport": "Bobsleigh" }
     ] }
 ]
