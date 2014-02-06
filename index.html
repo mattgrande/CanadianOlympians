@@ -32,45 +32,7 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
 		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-		<script type="text/javascript">
-			$(document).ready(function() {
-				// $.getJSON('http://canadianolympians.azurewebsites.net/olympics.js', function(data) {
-				// 	alert( 'data!' );
-				// 	console.log( 'data' );
-				// 	console.log( data )
-				// 	var items = [];
-				// 	$.each( data, function( key, val ) {
-				// 		console.log('k/v');
-				// 		console.log( key );
-				// 		console.log( val );
-				// 	    items.push( "<li id='" + key + "'>" + val + "</li>" );
-				// 	});
-				// 	$( "<ul/>", {
-    // 					html: items.join( "" )
-  		// 			}).appendTo( "#map" );
-				// }).fail(
-				// 	function() { alert('fail'); }
-				// );
-
-			$.get( "olympics.js", function(data) {
-				console.log('data');
-				// console.log( data );
-				var olympians = JSON.parse( data );
-				console.log( olympians );
-				for (var i = 0; i < olympians.length; i++) {
-					console.log( i );
-					console.log( data[i] );
-				};
-			} )
-			  .done(function() {
-			    alert( "$.get succeeded" );
-			  })
-			  .fail(function() {
-			    alert( "$.get failed!" );
-			  });
-
-			});
-		</script>
+		<script type="text/javascript" src="maps.js"></script>
 	</head>
 	<body>
 		<div id="header">
