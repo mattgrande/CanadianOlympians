@@ -59,7 +59,7 @@ $(document).ready(function() {
 	function showInfoWindow( marker, city ) {
 		var text = "<strong>" + city.name + "</strong><ul>";
 		for (var i = 0; i < city.athletes.length; i++) {
-			text += "<li>" + city.athletes[i].name + "</li>";
+			text += "<li>" + city.athletes[i].name + " &mdash; " + city.athletes[i].sport + "</li>";
 		};
 		text += "</ul>";
 
