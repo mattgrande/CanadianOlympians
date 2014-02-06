@@ -46,7 +46,7 @@ $(document).ready(function() {
 					if (status == google.maps.GeocoderStatus.OK) {
 						var location = results[0].geometry.location,
 						    marker   = addMarker( location.d, location.e, count, map );
-						console.log( city.name );
+						console.log( results );
 						console.log( location.d );
 						console.log( location.e );
 					}
