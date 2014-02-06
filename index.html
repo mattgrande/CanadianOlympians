@@ -54,11 +54,11 @@
 
 			$.get( "olympics.js", function(data) {
 				console.log('data');
-				console.log( data );
-				$.each( data, function( k, v ) {
-					console.log(k);
-					console.log(v);
-				});
+				// console.log( data );
+				for (var i = 0; i < data.length; i++) {
+					console.log( i );
+					console.log( data[i] );
+				};
 			} )
 			  .done(function() {
 			    alert( "$.get succeeded" );
