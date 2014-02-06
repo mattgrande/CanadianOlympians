@@ -19,6 +19,7 @@ function addMarker( lat, lng, city ) {
 	console.log(lat);
 	console.log(lng);
 	console.log(city);
+	console.log(map);
 
 	var count = city.athletes.length,
 	    marker = new google.maps.Marker({
@@ -52,7 +53,7 @@ function showInfoWindow( marker, city ) {
 	console.log('showInfoWindow');
 	var text = "<strong>" + city.name + "</strong><ul>";
 	for (var i = 0; i < city.athletes.length; i++) {
-		text += "<li>" + city.athletes[i] + "</li>";
+		text += "<li>" + city.athletes[i].name + "</li>";
 	};
 	text += "</ul>";
 	console.log( text );
