@@ -35,8 +35,13 @@
 		<script type="text/javascript">
 			$(document).ready(function() {
 				$.getJSON('./olympics.js', function(data) {
+					console.log( 'data' );
+					console.log( data )
 					var items = [];
 					$.each( data, function( key, val ) {
+						console.log('k/v');
+						console.log( key );
+						console.log( val );
 					    items.push( "<li id='" + key + "'>" + val + "</li>" );
 					});
 					$( "<ul/>", {
