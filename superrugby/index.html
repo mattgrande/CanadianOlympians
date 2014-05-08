@@ -136,7 +136,7 @@ var svg = d3.selectAll("svg").data([path, null, null]);
 var fill = d3.scale.category20b();
 
 queue()
-    .defer(d3.json, "world.json")
+    .defer(d3.json, "world.js")
     .defer(d3.csv, "stadium.csv")
     .await(ready);
 
